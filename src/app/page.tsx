@@ -1,14 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import {
-  ArrowRight,
-  CornerDownRight,
-  Heart,
-  Moon,
-  Sparkles,
-  Star,
-} from 'lucide-react';
+import { ArrowRight, Heart, Moon, Sparkles, Star } from 'lucide-react';
 import React, { useState } from 'react';
 
 // Types for our data structures
@@ -49,10 +42,46 @@ export default function GoodbyeWebApp() {
     },
   ];
 
-  const unintendedMistakes: string[] = [
-    'Letting my critical perspective overshadow the warmth we shared.',
-    'Using words that unintentionally caused disrespect or hurt.',
-    'Failing to make you feel completely safe and happy when together.',
+  // const unintendedMistakes: string[] = [
+  //   'Letting my critical perspective overshadow the warmth we shared.',
+  //   'Using words that unintentionally caused disrespect or hurt.',
+  //   'Failing to make you feel completely safe and happy when together.',
+  // ];
+
+  // const unintendedMistakes: string[] = [
+  //   'Every relationship has arguments, but I believed we could have outgrown them together.', // The Hint
+  //   'Using words that unintentionally caused disrespect or hurt.',
+  //   'Failing to make you feel completely safe and happy when together.',
+  // ];
+
+  const lingeringThoughts = [
+    {
+      label: 'On Compatibility',
+      text: '26 Gunas are a strong foundation. While stars (Rashi) are fixed, human efforts are variables that can change any outcome.',
+    },
+    {
+      label: 'On Conflict',
+      text: 'I viewed our arguments as bugs to be fixed together, not as a reason to delete the entire project.',
+    },
+    {
+      label: 'On The Future',
+      text: 'I am moving on as you requested, but I leave this door unlocked. Great things often require a second look.',
+    },
+  ];
+
+  const reflections: FeatureCard[] = [
+    {
+      title: 'The Nature of Growth',
+      desc: 'Every meaningful relationship faces friction. It’s not a sign of failure, but a part of two lives learning to align.',
+    },
+    {
+      title: 'The Power of Choice',
+      desc: 'I believed that 26 Gunas were a foundation, and the rest was up to us to build with patience and understanding.',
+    },
+    {
+      title: 'Respecting Boundaries',
+      desc: "Moving on isn't about forgetting; it's about respecting your path even when it diverges from mine.",
+    },
   ];
 
   const pureIntentions: FeatureCard[] = [
@@ -145,7 +174,7 @@ export default function GoodbyeWebApp() {
 
         {/* Ownership & Apology Section */}
         <section className="grid md:grid-cols-2 gap-8 items-stretch">
-          <motion.div
+          {/* <motion.div
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             className="bg-gradient-to-b from-slate-900/80 to-slate-950 border border-slate-800/80 rounded-2xl p-8 flex flex-col justify-between"
@@ -155,8 +184,12 @@ export default function GoodbyeWebApp() {
                 Owning My Mistakes
               </h3>
               <p className="text-sm text-slate-400 leading-relaxed">
-                For every moment your smile faded because of me, I am deeply
-                sorry.
+                Arguments happen in every relationship—they are just a sign of
+                two unique individuals trying to align. I always believed that
+                our connection was worth fighting{' '}
+                <span className="italic text-slate-300">through</span> the
+                arguments for, rather than ending because of them. For every
+                moment your smile faded because of me, I am deeply sorry.
               </p>
               <ul className="space-y-3 text-sm text-slate-300">
                 {unintendedMistakes.map((mistake, idx) => (
@@ -164,7 +197,7 @@ export default function GoodbyeWebApp() {
                     key={idx}
                     className="flex items-start gap-2"
                   >
-                    <CornerDownRight className="w-4 h-4 text-rose-500 shrink-0 mt-0.5" />
+                    <CornerDownRight className="w-4 h-4 text-indigo-400 shrink-0 mt-0.5" />
                     <span>{mistake}</span>
                   </li>
                 ))}
@@ -173,6 +206,43 @@ export default function GoodbyeWebApp() {
             <div className="pt-6 border-t border-slate-800/60 mt-6 text-xs text-slate-500 italic">
               &quot;I wished to make you feel safe, but I failed to match your
               perfection.&quot;
+            </div>
+          </motion.div> */}
+          <motion.div
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="bg-gradient-to-b from-slate-900/80 to-slate-950 border border-slate-800/80 rounded-2xl p-8 flex flex-col justify-between shadow-xl"
+          >
+            <div className="space-y-6">
+              <h3 className="text-xl font-bold text-indigo-300">
+                A Perspective on 'Us'
+              </h3>
+              <p className="text-sm text-slate-400 leading-relaxed italic">
+                "Arguments are just the noise of two hearts trying to find a
+                common rhythm."
+              </p>
+              <p className="text-sm text-slate-300 leading-relaxed">
+                In every relationship, friction is inevitable. I’ve realized
+                that perfection isn't about never fighting—it's about how we
+                choose to recover. I tried to bring transparency and effort, but
+                I respect that our perspectives on compatibility were different.
+              </p>
+              <div className="space-y-4 pt-4">
+                {reflections.map((item, idx) => (
+                  <div
+                    key={idx}
+                    className="flex gap-3 items-start"
+                  >
+                    <div className="w-1.5 h-1.5 rounded-full bg-indigo-500 mt-1.5 shrink-0" />
+                    <div>
+                      <h4 className="text-xs font-bold text-slate-200 uppercase tracking-wider">
+                        {item.title}
+                      </h4>
+                      <p className="text-xs text-slate-500">{item.desc}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
           </motion.div>
 
@@ -209,6 +279,37 @@ export default function GoodbyeWebApp() {
           </div>
         </section>
 
+        <section className="space-y-6">
+          <div className="space-y-2 text-center md:text-left">
+            <h2 className="text-2xl font-bold text-slate-200">
+              Lingering Thoughts
+            </h2>
+            <p className="text-sm text-slate-400">
+              A few reflections I wanted to share before we part ways.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {lingeringThoughts.map((item, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 15 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.15 }}
+                className="bg-slate-900/30 border border-slate-800/80 rounded-2xl p-6 backdrop-blur-sm hover:border-slate-700/60 transition-colors"
+              >
+                <h3 className="font-semibold text-slate-200 text-lg mb-2">
+                  {item.label}
+                </h3>
+                <p className="text-sm text-slate-400 leading-relaxed">
+                  {item.text}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </section>
+
         {/* The Final Letter Reveal */}
         <section className="bg-slate-900/30 border border-slate-800/80 rounded-2xl p-8 max-w-2xl mx-auto text-center space-y-6">
           <div className="space-y-2">
@@ -234,9 +335,9 @@ export default function GoodbyeWebApp() {
               animate={{ opacity: 1, height: 'auto' }}
               className="text-left bg-slate-950/60 p-6 rounded-xl border border-slate-850 space-y-4 text-sm text-slate-300 leading-relaxed max-h-[400px] overflow-y-auto"
             >
-              <p className="font-semibold text-slate-400">Priy Mohini,</p>
+              <p className="font-semibold text-slate-400">Priya Mohini,</p>
               <p>
-                He patra mi tula kontahi tras denyasathi nahi, tar mazya bhavna
+                He letter mi tula kontahi tras denyasathi nahi, tar mazya bhavna
                 tuzi maffi magat tula neet nrop denyasathi lihit aahe.
               </p>
               <p>
@@ -246,11 +347,13 @@ export default function GoodbyeWebApp() {
                 adorable look mi kadhich nahi visru shakat.
               </p>
               <p>
-                Mi tuzya sobat nehami transparent rahnyacha prayatna kela, pan
-                mazyakdun boltana kahi chuka jalya. Kadhi tari mazyakdun tula
-                disrespect hoil ase shabd bolle gele. Mazyakdun jya kahi chuka
-                jalya ani mazyamule tu jya jya veli hurt jalis, tyasathi mi
-                paschatapbuddhi ne tuzi manapasun <strong>SORRY</strong> magto.
+                Mi tuzya sobat nehami transparent rahnyacha prayatna kela.
+                Boltana kadhi kadhi aple matbhed jale, kadhi argument jale, pan
+                mla vattat kontya hi don vyakti madhe matbhed hone he sahaj
+                aahe. Khar nate te aste jithe aapan ya vaadapeksha ekmekanna
+                samjun ghenyala jast mhatva deto. Kadachit aplya vicharat thodi
+                bhinnata hoti, pan maza hetu nehami tula aanandi ani safe feel
+                karvanyacha hota.
               </p>
               <p>
                 Tula special feel karvanyasathi mi khup vichar kela hota. Tula
@@ -264,8 +367,13 @@ export default function GoodbyeWebApp() {
                 Aple 26 gun milan jale, pan rashi nahi jullyamule tu jo
                 thambnyacha nirnay ghetlas, mi tya tuzi nirnayacha poorna aadar
                 karto. Tu mla move on vhayla sangitle aahes. Tuzi ichha mhanun
-                mi aata tuza pasun khup door jat aahe. Tu nehami goad hasat
-                raha. Tula tuzya aushyat khup prem, yash milo hich prarthana.
+                mi aata tuza pasun khup door jat aahe.Nate nibhavne hi ek choice
+                aste, ani mi mazi choice tula dakhvli hoti, pan tuza nirnay mala
+                manya aahe.
+              </p>
+              <p>
+                Tu nehami goad hasat raha. Tula tuzya aushyat khup prem ani yash
+                milo hich prarthana.
               </p>
               <p className="pt-4 border-t border-slate-800 text-slate-400">
                 Kalji ghe. Good bye.
