@@ -86,7 +86,7 @@ export default function GoodbyeWebApp() {
           </span>
         </div>
         <div className="text-xs text-rose-400/80 bg-rose-950/40 border border-rose-900/50 px-3 py-1 rounded-full backdrop-blur-sm">
-          25 Gunas Matched • Respecting Destiny
+          26 Gunas Matched • Respecting Destiny
         </div>
       </header>
 
@@ -254,21 +254,21 @@ export default function GoodbyeWebApp() {
               </p>
               <p>
                 Tula special feel karvanyasathi mi khup vichar kela hota. Tula
-                aanand dyayla ani surprise karaylasathi mi Valentine&apos;s Day
+                aanand dyayla ani surprise karanyasathi mi Valentine&apos;s Day
                 la ek mast <strong>web app</strong> dekhil banvle hote. Tuzya
                 baddal mazya manat khup kahi plans hote—tula birthday la
                 flowers, chocolates ani teddy bear deun surprise karayche hote.
-                Pan kadachit aaple nsheeb sobat navhate.
+                Pan kadachit aaple nasheeb sobat navhate.
               </p>
               <p>
                 Aple 26 gun milan jale, pan rashi nahi jullyamule tu jo
                 thambnyacha nirnay ghetlas, mi tya tuzi nirnayacha poorna aadar
                 karto. Tu mla move on vhayla sangitle aahes. Tuzi ichha mhanun
-                mi aata tuzi pasun khup door jat aahe. Tu nehami goad hasat
+                mi aata tuza pasun khup door jat aahe. Tu nehami goad hasat
                 raha. Tula tuzya aushyat khup prem, yash milo hich prarthana.
               </p>
               <p className="pt-4 border-t border-slate-800 text-slate-400">
-                Kalji gha. Good bye.
+                Kalji ghe. Good bye.
                 <br />
                 <span className="text-xs italic text-slate-500">
                   Tuza, Saurabh.
