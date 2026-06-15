@@ -86,7 +86,7 @@ export default function GoodbyeWebApp() {
           </span>
         </div>
         <div className="text-xs text-rose-400/80 bg-rose-950/40 border border-rose-900/50 px-3 py-1 rounded-full backdrop-blur-sm">
-          26 Gunas Matched • Respecting Destiny
+          25 Gunas Matched • Respecting Destiny
         </div>
       </header>
 
