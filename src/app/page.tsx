@@ -95,7 +95,7 @@ export default function GoodbyeWebApp() {
       tag: 'Tech with Heart',
     },
     {
-      title: 'Unsent Birthday Plans',
+      title: 'Unsent Surprise Plans',
       desc: 'Awaiting the perfect moment to surprise you with flowers, chocolates, and a teddy bear.',
     },
   ];
