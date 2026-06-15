@@ -338,7 +338,7 @@ export default function GoodbyeWebApp() {
               <p className="font-semibold text-slate-400">Priya Mohini,</p>
               <p>
                 He letter mi tula kontahi tras denyasathi nahi, tar mazya bhavna
-                tuzi maffi magat tula neet nrop denyasathi lihit aahe.
+                vyakta karun tula ek sammanpurvak nrop denyasathi lihit aahe.
               </p>
               <p>
                 Jeevansathi portal varun suru jalele aple natte Instagram var
