@@ -234,7 +234,7 @@ export default function GoodbyeWebApp() {
               animate={{ opacity: 1, height: 'auto' }}
               className="text-left bg-slate-950/60 p-6 rounded-xl border border-slate-850 space-y-4 text-sm text-slate-300 leading-relaxed max-h-[400px] overflow-y-auto"
             >
-              <p className="font-semibold text-slate-400">Priy [Her Name],</p>
+              <p className="font-semibold text-slate-400">Priy Mohini,</p>
               <p>
                 He patra mi tula kontahi tras denyasathi nahi, tar mazya bhavna
                 tuzi maffi magat tula neet nrop denyasathi lihit aahe.
@@ -247,11 +247,10 @@ export default function GoodbyeWebApp() {
               </p>
               <p>
                 Mi tuzya sobat nehami transparent rahnyacha prayatna kela, pan
-                mazyakdun boltana kahi chuka jalya. Mi tula judge kele ani kadhi
-                tari mazyakdun tula disrespect hoil ase shabd bolle gele.
-                Mazyakdun jya kahi chuka jalya ani mazyamule tu jya jya veli
-                hurt jalis, tyasathi mi paschatapbuddhi ne tuzi manasun{' '}
-                <strong>SORRY</strong> magto.
+                mazyakdun boltana kahi chuka jalya. Kadhi tari mazyakdun tula
+                disrespect hoil ase shabd bolle gele. Mazyakdun jya kahi chuka
+                jalya ani mazyamule tu jya jya veli hurt jalis, tyasathi mi
+                paschatapbuddhi ne tuzi manapasun <strong>SORRY</strong> magto.
               </p>
               <p>
                 Tula special feel karvanyasathi mi khup vichar kela hota. Tula
@@ -264,16 +263,15 @@ export default function GoodbyeWebApp() {
               <p>
                 Aple 26 gun milan jale, pan rashi nahi jullyamule tu jo
                 thambnyacha nirnay ghetlas, mi tya tuzi nirnayacha poorna aadar
-                karto. Tu mla move on hnayla sangitle aahes. Tuzi ichha mhanun
+                karto. Tu mla move on vhayla sangitle aahes. Tuzi ichha mhanun
                 mi aata tuzi pasun khup door jat aahe. Tu nehami goad hasat
-                raha. Tula tuzya aushyat khup prem, yash ani ek changla
-                jodiwadar milo hich prarthana.
+                raha. Tula tuzya aushyat khup prem, yash milo hich prarthana.
               </p>
               <p className="pt-4 border-t border-slate-800 text-slate-400">
                 Kalji gha. Good bye.
                 <br />
                 <span className="text-xs italic text-slate-500">
-                  Tuza, [Your Name]
+                  Tuza, Saurabh.
                 </span>
               </p>
             </motion.div>
