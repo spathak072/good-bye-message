@@ -242,7 +242,7 @@ export default function GoodbyeWebApp() {
               <p>
                 Jeevansathi portal varun suru jalele aple natte Instagram var
                 aale ani mla tuzya baddal ek khup vegalech apulkiche nate
-                janvayla lagle. Tuzi ti goad smile ani saree madhla tula toh
+                janvayla lagle. Tuzi ti goad smile ani saree madhla tuzha toh
                 adorable look mi kadhich nahi visru shakat.
               </p>
               <p>
