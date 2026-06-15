@@ -171,8 +171,8 @@ export default function GoodbyeWebApp() {
               </ul>
             </div>
             <div className="pt-6 border-t border-slate-800/60 mt-6 text-xs text-slate-500 italic">
-              "I wished to make you feel safe, but I failed to match your
-              perfection."
+              &quot;I wished to make you feel safe, but I failed to match your
+              perfection.&quot;
             </div>
           </motion.div>
 
@@ -255,11 +255,11 @@ export default function GoodbyeWebApp() {
               </p>
               <p>
                 Tula special feel karvanyasathi mi khup vichar kela hota. Tula
-                aanand dyayla ani surprise karaylasathi mi Valentine's Day la ek
-                mast <strong>web app</strong> dekhil banvle hote. Tuzya baddal
-                mazya manat khup kahi plans hote—tula birthday la flowers,
-                chocolates ani teddy bear deun surprise karayche hote. Pan
-                kadachit aaple nsheeb sobat navhate.
+                aanand dyayla ani surprise karaylasathi mi Valentine&apos;s Day
+                la ek mast <strong>web app</strong> dekhil banvle hote. Tuzya
+                baddal mazya manat khup kahi plans hote—tula birthday la
+                flowers, chocolates ani teddy bear deun surprise karayche hote.
+                Pan kadachit aaple nsheeb sobat navhate.
               </p>
               <p>
                 Aple 26 gun milan jale, pan rashi nahi jullyamule tu jo
